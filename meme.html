@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .meme {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+      }
+      .parent {
+      }
+      #meme1 {
+        top: 0;
+        max-height: 100%;
+      }
+      #top {
+        padding-right: 40%;
+        position: absolute;
+        top: 0;
+      }
+      #bottom {
+        padding-left: 20%;
+        position: absolute;
+        bottom: 0;
+      }
+      p {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 15px 0;
+        padding: 0 5px;
+        font-family: impact;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0px 2px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="meme">
+        <p id="top">Kids be like</p>
+        <img id="meme1" src="images/meme1.jpg" alt="">
+        <p id="bottom">"I'm working on the frontend"</p>
+      </div>
+    </div>
+  </body>
+</html>
